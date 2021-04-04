@@ -67,8 +67,19 @@ body{
     font-size: 20px !important;
     color: rgb(255, 255, 255);
 }
-
-.abtusimg {
-    border-radius: 10px !important;
-    width: 50px !important;
+.mb-3 input{
+    width: 50% !important;
+}
+.form-control{
+    width: 50% !important
+}
+.mb-3 {
+    margin: 50px !important;
+    margin-left: 500px !important;
+}
+.submit {
+    margin-left: 500px;
+    color: rgb(124, 96, 19);
+    background-color: burlywood;
+    border: 1px solid wheat;
 }
