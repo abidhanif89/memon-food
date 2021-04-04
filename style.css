@@ -52,7 +52,23 @@ body{
     border-radius: 30px !important;
 }
 .card img:hover {
-    transform: scale(1.6) !important;
+    /* transform: scale(1.6) !important; */
     z-index: 1 !important;
     transition: 2s;
+}
+.aboutus1 {
+    color: rgb(0, 0, 0) !important;
+    font-size: 32px !important;
+    text-align: center !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    text-decoration: underline;
+}
+.abtusdetail {
+    font-size: 20px !important;
+    color: rgb(255, 255, 255);
+}
+
+.abtusimg {
+    border-radius: 10px !important;
+    width: 50px !important;
 }
