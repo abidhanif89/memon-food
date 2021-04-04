@@ -14,7 +14,7 @@ body{
 
 }
 .logo {
-    width: 10%;
+    width: 15%;
 }
 .carousel-item {
     width: 90% !important;
@@ -38,4 +38,21 @@ body{
 }
 .prdctrow1 {
     margin-top: -1% !important;
+}
+.arbnpuff{
+    width: 100% !important;
+}
+.card {
+    margin-right: 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 30px !important;
+    box-shadow: 10px 10px 5px rgb(218, 211, 211);
+}
+.card img {
+    border-radius: 30px !important;
+}
+.card img:hover {
+    transform: scale(1.6) !important;
+    z-index: 1 !important;
+    transition: 2s;
 }
