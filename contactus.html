@@ -57,19 +57,41 @@
             </div>
         </nav>
         <!-- header end -->
-        <div class="mb-3 contact">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3 contact">
-            <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
-            <input type="number" class="form-control" id="exampleFormControlInput1">
-          </div>
-          <div class="mb-3 contact">
-            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>
-          </div>
-          <button class="submit">submit</button>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/beef samosa.jpg" class="d-block w-100" alt="beefsamosa" height="60%">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/chicken roll.jpg" class="d-block w-100" alt="chickenroll">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/wonton.jpg" class="d-block w-100" alt="wonton">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cheeseball.jpg" class="d-block w-100" alt="cheeseball">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cheesecone.jpg" class="d-block w-100" alt="cheesecone">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/threadchken.jpg" class="d-block w-100" alt="threadchken">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/box patties.jpg" class="d-block w-100" alt="boxpatties">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
 </body>
 

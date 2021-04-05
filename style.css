@@ -4,13 +4,13 @@ body{
     background-color: #f8f9fa !important;
 }
 .navbarli {
-    margin-left: 20%;
+    margin-left: 15%;
 }
 .aboutus {
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .dropdown {
-    margin-left: 30px;
+    margin-left: 10px;
 
 }
 .logo {
@@ -75,11 +75,14 @@ body{
 }
 .contact {
     margin: 50px !important;
-    margin-left: 400px !important;
+    margin-left: 100px !important;
 }
 .submit {
     margin-left: 500px;
     color: rgb(124, 96, 19);
     background-color: burlywood;
     border: 1px solid wheat;
+}
+.abtdetail{
+    margin-top: 20px !important;
 }
