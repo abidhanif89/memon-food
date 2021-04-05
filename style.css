@@ -101,3 +101,19 @@ body{
     width: 80% !important;
     margin: 0 auto !important;
 } 
+.contactus {
+    text-align: center !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px !important;
+}
+.contactform {
+    text-align: center;
+}
+.submitbtn {
+    color: rgb(0, 0, 0);
+    border-radius: 20px !important;
+    width: 100px !important;
+    border-style: double;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
